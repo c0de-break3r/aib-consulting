@@ -31,7 +31,7 @@ const Footer = () => {
               {[
                 { name: "Home", path: "/" },
                 { name: "About Us", path: "/about-us" },
-                { name: "Our Services", path: "/how-we-work" },
+                { name: "Our Services", path: "/our-services" },
                 { name: "Contact Us", path: "/contact-us" },
               ].map((link, idx) => (
                 <li key={idx}>
@@ -49,16 +49,16 @@ const Footer = () => {
           <div className="mb-6">
             <h3 className="text-lg font-bold mb-4">Our Services</h3>
             <ul className="space-y-3 text-sm font-thin text-white hover:text-gray-100">
-              <li>Cybersecurity</li>
-              <li>Digital Transformation Strategy </li>
-              <li>Digital Presence Solutions </li>
-              <li>Digitalization</li>
-              <li>E-commerce</li>
-              <li>Business Process Reengineering</li>
-              <li>Network & Systems </li>
-              <li>Data Management & Science</li>
-              <li>Digital Marketing Solutions </li>
-              <li>General ICT Consulting</li>
+            <li><a href="our-services#cybersecurity">Cybersecurity</a></li>
+              <li><a href="/our-services#digital-transformation">Digital Transformation Strategy </a></li>
+              <li><a href="/our-services#digital-presence">Digital Presence Solutions </a></li>
+              <li><a href="/our-services#digitalization">Digitalization</a></li>
+              <li><a href="/our-services#ecommerce">E-commerce</a></li>
+              <li><a href="/our-services#business-process">Business Process Reengineering</a></li>
+              <li><a href="/our-services#network-systems">Network & Systems </a></li>
+              <li><a href="/our-services#data-management">Data Management & Science</a></li>
+              <li><a href="/our-services#digital-marketing">Digital Marketing Solutions</a> </li>
+              <li><a href="/our-services#general-consulting">General ICT Consulting</a></li>
             </ul>
           </div>
         </div>
@@ -76,7 +76,7 @@ const Footer = () => {
               <li className="flex items-center">
                 <Phone className="text-white w-6 h-6 mr-3" />
                 <p className="text-sm sm:text-base text-white hover:text-gray-100">
-                  <span className="font-normal text-white">Phone:</span> +233-302905659 | +233-243380612
+                  <span className="font-light text-white"><a href="tel:+233243380612">Phone:+233-302905659 | +233-243380612</a></span> 
                 </p>
               </li>
               <li className="flex items-center">

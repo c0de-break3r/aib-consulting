@@ -46,9 +46,12 @@ const Navbar = () => {
             {/* Main Navbar */}
             <div className="container mx-auto flex items-center justify-between px-4 md:px-6 relative">
                 {/* Logo */}
-                <div className="flex items-center">
+              
+                <Link to="/">
+                     
                     <img src={logo} alt="Logo" className="h-24 sm:h-24" />
-                </div>
+               
+                </Link>
 
                 {/* Navigation Links */}
                 <div
